@@ -1,0 +1,571 @@
+Jaypee Institute of Information Technology, Noida
+DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING AND INFORMATION TECHNOLOGY
+
+
+
+
+
+
+
+
+
+
+Project Title: AEGIS
+
+                                               Enroll. No.	Name of Student
+9923103059	Yasharth Singh
+9923103069    Nikunj Sethi
+9923103072	Shrey Sircar
+
+Course Name: Minor Project-I
+Course Code: 15B19CI591
+Program: B. Tech. CSE
+3rd Year 5th Sem
+2025 - 2026
+
+
+Arrangement of Contents:
+The sequence in which the project report material should be arranged is as follows:
+1.	Cover Page  
+2.	Acknowledgement 
+3.	Declaration
+4.	Certificate
+5.	Abstract
+6.	Table of Contents
+7.	List of Tables/List of Figures
+8.	Abbreviations and Nomenclature (If any)
+9.	Introduction
+10.	Background study
+11.	Requirement Analysis
+12.	Detailed design
+13.	Implementation
+14.	Experimental Results and Analysis
+15.	Conclusion of the Report and Future Scope
+16.	References in IEEE format
+17.	Appendices (If any)
+The tables and figures shall be introduced in the appropriate places.
+Typing Instructions:
+1.	The project report shall be computer typed with font size 11 for normal text, font size 13 & bold for all main headings, and 12 & bold for sub-headings. The report must be written on A4 size and must not exceed 30 Pages.
+2.	The project report shall be typed with 1.5-line spacing with a margin 3.5 cm on the left, 2.5 cm on the top, and 1.25 cm on the right and at bottom. 
+3.	Every page in the project report must be numbered. The page numbering, starting from abstract and till the beginning of the introductory chapter, should be printed in small Roman numbers, i.e, i, ii, iii, iv......  The page number of the first page of each chapter should not be printed (but must be accounted for). All page numbers from the second page of each chapter should be printedusing Arabic numerals, i.e. 2,3,4,5... All printed page numbers should be located at the bottom centre of the page.
+4.	The table of contents should list all headings and next sub headings only.
+ 
+Table of Contents
+Page No.
+
+Abstract	i
+Acknowledgement		ii
+List of Tables	iv
+List of Figures	v
+List of Abbreviations		vi
+List of Nomenclature		vii
+
+Chapter 1: INTRODUCTION
+                  1.1GENERAL                           					2
+		1.2         . . . .  . . . . . . . . .        							2
+			1.2.1	    General                  						3
+			1.2.2     . . . . . . . . . . .            						3
+1.2.3    . . . . . . . . . . . .             						4
+1.3	. . . . . . . . . . .. . . . . . .     							41.4	. . . . . . . . . . . . . . . . . .       						5			
+Chapter 2: LITERATURE REVIEW                                                     		
+2.1	GENERAL    						7                                                             2.2       …………….     								8:
+:
+:				
+References			
+Appendices- 1, 2, 3 (If any)									15
+Power Point Presentation									16
+
+ 
+List of Tables
+
+
+Table		Title 									Page
+
+
+
+3.1 		Values Assigned to Standard k-ε Turbulence Model Coefficients ................ 	xx
+3.2 		Values Assigned to RNG k-ε Turbulence Model Coefficients ...................... 	xx
+4.1 		Engine Specifications. .................................................................................... 	xx
+4.2 		Geometrical Details of the Injector ................................................................ 	xx
+4.3 		Boundary and Initial Conditions .................................................................... 	xx
+4.4 		Grid Independence Study ............................................................................... 	xx
+ 
+List of Figures
+
+Figure 	Title 									Page
+
+3.1		Lagrangian Droplet Motion ...........................................................................	xx
+4.1 		Vertical Manifold. ........................................................................................	xx
+4.2 		20O Bend Manifold.........................................................................................	xx
+4.3 		90O Bend Manifold.......................................................................................	xx
+4.4 		Spiral Manifold ..............................................................................................	xx
+4.5 		Spiral Manifold Configuration (θ = 225o) .....................................................	xx
+4.6 		Spiral Manifold with Different Flow Entry Angles (20O, 32.5O and 45O) ........	xx
+ 
+Nomenclature
+
+English Symbols
+
+A 	Pre-exponential constant
+Cp 	Specific heat,J/kg-K
+c 	Reaction progress variable
+Dd	Instantaneous droplet diameter, m
+Dm	Instantaneous droplet diameter
+ 
+Abbreviations
+
+
+ATDC 			After Top Dead Center
+BDC 			Bottom Dead Center
+BTDC 			Before Top Dead Center
+CA 			Crank Angle
+CAD 			Computer Aided Design
+CCS 			Combined Charging System
+CFD 			Computational Fluid Dynamics
+CO 			Carbon Monoxide
+CTC 			Characteristic– Time Combustion
+ 
+
+ACKNOWLEDGEMENT
+
+
+I would like to place on record my deep sense of gratitude to  _____________,  Designation, Jaypee Institute of Information Technology, India for his/her generous guidance, help and useful suggestions.
+
+I express my sincere gratitude to ______________, Dept. of  -----------------, India, for his/her stimulating guidance, continuous encouragement and supervision throughout the course of present work.
+
+I also wish to extend my thanks to _____________ and other classmates for their insightful comments and constructive suggestions to improve the quality of this project work.
+
+
+Signature(s) of Students
+
+Yasharth Singh
+
+Shrey Sircar
+
+Nikunj Sethi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DECLARATION
+
+We hereby declare that this submission is our own work and that, to the best of our knowledge and beliefs, it contains no material previously published or written by another person nor material which has been accepted for the award of any other degree or diploma from a university or other institute of higher learning, except where due acknowledgment has been made in the text.
+
+
+Place: 
+Date: 
+Name: Yasharth Singh
+Enrolment No.: 9923103059
+Name: Nikunj Sethi
+Enrolment No.: 9923103069
+Name: Shrey Sircar
+Enrolment No.: 9923103072
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+CERTIFICATE
+
+This is to certify that the work titled “Aegis” submitted by Shrey Sircar, Yasharth Singh, Nikunj Sethi of B.Tech of Jaypee Institute of Information Technology, Noida has been carried out under my supervision. This work has not been submitted partially or wholly to any other University or Institute for the award of any other degree or diploma.
+
+
+
+
+Digital Signature of Supervisor
+Name of Supervisor: Prakhar Mishra	
+Designation		
+Date			
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Abstract
+Urban safety remains a pressing challenge in modern cities, where individuals and organizations lack access to predictive and severity-aware intelligence when navigating dynamic environments. Existing crime dashboards and maps typically visualize past incidents without accounting for severity or temporal patterns, limiting their ability to provide actionable insights. This creates uncertainty for citizens, tourists, businesses, and policymakers who require defensible, data-driven tools to assess risk across time and location.
+This project, Aegis, introduces a machine learning–based framework that generates predictive, severity-weighted safety scores for urban areas. Leveraging the City of Chicago’s Crimes – 2001 to Present dataset (2015–2025 subset) and integrating severity weights from the Bureau of Justice Statistics’ National Survey of Crime Severity (NSCS), each crime record is transformed into a continuous measure of “unsafety.” These records are aggregated by community area, time, and location descriptors to produce a target variable, which is modeled using Gradient Boosting (XGBoost). Exploratory data analysis validates patterns and highlights hotspots, while predictive scores are exposed through a FastAPI service.
+To ensure accessibility, Aegis is deployed via both a Next.js web platform with dashboards and heatmaps, and a Flutter mobile application that provides on-demand safety scores for route planning and decision-making. The framework demonstrates how integrating severity weighting with predictive modeling improves interpretability, policy relevance, and citizen usability. Aegis thus offers a scalable, data-driven approach to enhance urban safety intelligence and empower proactive decision-making.
+Keywords: Crime prediction, severity weighting, urban safety, XGBoost, FastAPI, Next.js, Flutter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHAPTER 1
+INTRODUCTION
+
+Safety and security are among the most important aspects of urban living, directly shaping the mobility, economic growth, and social confidence of a city’s population. With increasing urbanization and high population density, crime has become more dynamic, influenced by multiple spatio-temporal factors such as location, time, and socio-economic conditions. Citizens, tourists, and businesses often face uncertainty when navigating urban spaces, as conventional crime reporting systems offer only static and retrospective views of incidents. These systems usually plot past crimes without accounting for severity, frequency, or predictive patterns, thereby limiting their usefulness for proactive decision-making.
+This project, Aegis, aims to overcome these limitations by developing a predictive, severity-weighted safety intelligence framework. The system combines historical crime records with authoritative severity mappings from the Bureau of Justice Statistics’ National Survey of Crime Severity (NSCS) to calculate a continuous weighted crime score that represents the relative “unsafety” of a given spatio-temporal context. Using features such as community area, month, day of week, hour, and location description, the model forecasts crime risk with greater interpretability and accuracy.
+The backend is implemented using FastAPI to provide low-latency prediction services, while outputs are deployed across two platforms: a Next.js web application for dashboards, choropleths, and visualizations, and a Flutter mobile application for personalized, on-demand safety scores. By bridging machine learning, urban analytics, and citizen services, Aegis demonstrates a scalable framework that benefits diverse stakeholders including citizens, tourists, planners, businesses, and government agencies.
+The following subsections present the background of the problem, define the research gap, state the objectives, and highlight the scope of the project.
+
+1.1 Background
+Urban areas face a constant challenge of balancing rapid development with citizen safety. Traditional approaches to crime reporting and visualization have focused primarily on retrospective data presentation, where incidents are logged and later displayed on dashboards or static maps. While such systems provide basic situational awareness, they do not incorporate temporal variations (e.g., crime peaks at specific hours or days), contextual descriptors (e.g., residential vs. commercial areas), or differences in crime severity.
+Recent advances in data science and the increasing availability of open crime datasets provide opportunities to design smarter systems that go beyond incident counting. By combining historical data with machine learning and severity-weighted scoring, it becomes possible to not only understand where and when crimes occur, but also to anticipate risk levels for different locations and times. Such predictive systems can improve personal decision-making, inform business operations, and support evidence-based policymaking by city authorities.
+
+1.2 Problem Definition
+Existing crime dashboards and public data portals, though informative, are reactive in nature. They treat all incidents equally, ignoring the fact that crimes vary significantly in severity and impact. For instance, a petty theft and an aggravated assault may be recorded as two separate crimes, yet their implications for safety are vastly different. Furthermore, most systems lack predictive capability and fail to integrate spatio-temporal intelligence, leaving citizens uncertain about future risks.
+This gap results in several challenges:
+•	For citizens and tourists: Lack of real-time and predictive safety intelligence when navigating cities.
+•	For businesses: Inability to optimize operations (e.g., opening hours, delivery routes) based on risk levels.
+•	For agencies and planners: Absence of defensible, severity-weighted models to prioritize allocation of safety resources.
+Therefore, there is a strong need for a data-driven framework that can assign severity weights, capture spatio-temporal crime patterns, and deliver predictive safety insights in an accessible manner.
+
+1.3 Objectives
+The main objectives of this project are:
+1.	To design a reproducible machine learning pipeline that predicts a continuous weighted crime score per combination of community area, time, and location descriptor.
+2.	To integrate authoritative severity mapping from the Bureau of Justice Statistics’ National Survey of Crime Severity (NSCS) into the crime dataset for defensible risk modeling.
+3.	To conduct exploratory data analysis (EDA) including time-series analysis, hourly/daily patterns, and choropleth visualizations, in order to validate severity weighting and identify hotspots.
+4.	To train and evaluate a Gradient Boosting model (XGBoost) capable of capturing non-linear patterns in urban crime data.
+5.	To implement a FastAPI-based backend that serves predictions efficiently for downstream applications.
+6.	To develop a Next.js web portal offering interactive dashboards and maps for planners and agencies.
+7.	To build a Flutter mobile application that delivers personalized, on-demand safety scores to citizens and tourists.
+8.	To demonstrate how severity-weighted predictive analytics can improve interpretability, usability, and policy relevance of urban safety intelligence.
+
+1.4 Scope of the Project
+The scope of this project is defined in terms of both data and deployment:
+•	Data Scope: The study focuses on the Crimes – 2001 to Present dataset from the City of Chicago, filtered to the years 2015–2025 to capture contemporary trends. Severity weights are applied using the NSCS survey, transforming raw records into severity-adjusted scores. The methodology is generalizable and can be extended to other cities with suitable datasets.
+•	Analytical Scope: The project emphasizes severity-weighted prediction of aggregated scores at the community-area and temporal levels. It does not attempt to predict individual incidents, but instead focuses on continuous risk scores useful for visualization and decision-making.
+•	Deployment Scope: The system is deployed across two platforms for maximum usability:
+o	A web-based dashboard (Next.js) targeted at planners, agencies, and researchers, with visualizations like heatmaps, choropleths, and temporal trends.
+o	A mobile application (Flutter) designed for citizens and tourists, enabling quick access to localized safety predictions and route-based risk assessments.
+While the initial deployment is limited to Chicago, the framework can be expanded to include multi-city support, real-time ingestion (via streaming), population-normalized scoring, and advanced models (e.g., deep learning for time series) in future extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BACKGROUND STUDY
+
+Understanding the background of the problem is essential to position the project within the existing body of work. Crime prediction and urban safety analytics have long been topics of interest for governments, researchers, and technology providers. With the growth of open data platforms, large volumes of crime records are now publicly available, making it possible to explore trends and develop predictive systems. However, despite these advancements, current solutions remain limited in their scope. Most existing platforms either focus on descriptive visualization of past incidents or academic prototypes that lack real-world deployment. To design an effective system like Aegis, it is important to analyze existing systems, prior research, available technologies, and the gaps that remain unaddressed.
+
+2.1 Existing Systems
+Publicly available crime data dashboards, such as those maintained by city governments and police departments, provide visualizations of historical crime incidents. These typically include heatmaps, bar charts, or searchable maps of neighborhoods. For example, the Chicago Data Portal allows users to explore crime data going back several years. While useful for transparency, these dashboards are reactive in nature—incidents are displayed only after they are reported. Moreover, all crimes are treated equally in terms of representation, meaning that a petty theft and a homicide appear as equivalent data points.
+Some navigation applications like Google Maps or Waze have attempted to crowdsource safety-related alerts (e.g., accidents, hazards, road closures). However, they do not integrate authoritative severity measures or predictive intelligence. Citizens are therefore left with limited context and cannot anticipate risks for specific times and places. This highlights a gap between data availability and actionable safety intelligence.
+
+2.2 Research Literature
+Researchers have extensively studied the use of data mining and machine learning techniques for crime analysis and forecasting. Key areas of focus include:
+•	Crime Prediction Models: Regression models, decision trees, and neural networks have been applied to predict crime counts in specific neighborhoods. These studies demonstrate that crime follows spatio-temporal patterns, making prediction feasible. However, they often treat all incidents with equal weight.
+•	Spatio-Temporal Analysis: Research confirms that crimes cluster geographically and exhibit seasonal or hourly variations. For instance, thefts often peak in commercial areas during evenings, while residential crimes may rise on weekends. Still, many studies remain descriptive rather than predictive.
+•	Severity Considerations: The Bureau of Justice Statistics (BJS) National Survey of Crime Severity (NSCS) provides a rare dataset that quantifies the severity of different crime types. Yet, only a few works have attempted to integrate these weights into predictive pipelines.
+Together, these studies suggest that while the technical foundation for crime prediction exists, there is still a gap in combining severity weights, predictive models, and practical deployment.
+
+2.3 Technological Context
+The rapid advancement of software frameworks and cloud-based deployment environments makes it possible to design end-to-end safety intelligence systems:
+•	Backend Infrastructure: Frameworks like FastAPI allow the development of scalable APIs capable of serving machine learning predictions with low latency.
+•	Frontend (Web): Next.js, built on React, supports interactive dashboards, charts, and choropleth maps that planners and agencies can use for analysis.
+•	Mobile Platforms: Flutter enables cross-platform mobile application development, ensuring that predictive safety intelligence is accessible to both Android and iOS users.
+•	Machine Learning Tools: Algorithms such as XGBoost and LightGBM are particularly effective for structured data prediction tasks like severity-weighted scoring.
+•	Database Systems: PostgreSQL with PostGIS extensions provide advanced support for spatial queries, making them suitable for storing and analyzing geographic crime data.
+These technologies ensure that predictive models can move beyond academic prototypes into systems that deliver real-time, accessible insights for all stakeholders.
+
+2.4 Gap Analysis
+From the review of systems, literature, and technologies, the following limitations are evident:
+1.	Lack of Severity Integration: Most existing dashboards and prediction systems ignore the variation in crime severity, leading to incomplete or misleading interpretations.
+2.	Reactive Nature of Current Platforms: Crime dashboards and apps focus on past data, providing little to no predictive capability.
+3.	Limited Deployment: Many research projects remain theoretical or limited to academic evaluation without being deployed in usable platforms.
+4.	Accessibility Challenges: Systems rarely bridge web and mobile platforms together, reducing the reach of predictive intelligence.
+5.	Fragmented Data Use: While open datasets exist, few systems integrate them with authoritative severity mappings or expose predictions via APIs for external use.
+
+2.5 Summary
+The background study reveals that while crime data is openly available and machine learning techniques for prediction are well established, practical urban safety intelligence systems remain underdeveloped. Current approaches fall short in three key areas: (i) severity-weighted risk scoring, (ii) predictive intelligence, and (iii) real-world deployment across multiple platforms.
+The Aegis project directly addresses these gaps by combining severity-based weighting from the NSCS with a machine learning pipeline to predict continuous safety scores. These predictions are deployed using FastAPI as a backend, with outputs visualized in a Next.js web portal and made accessible to citizens through a Flutter mobile application. By doing so, Aegis transforms open crime data into actionable insights, ensuring that safety intelligence is predictive, severity-aware, and accessible to all stakeholders.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Detailed Design
+
+The detailed design of Aegis encompasses the complete system architecture, data flow, component interactions, and technical specifications required to implement a predictive, severity-weighted safety intelligence framework. This chapter presents the system architecture, database schema, API design, machine learning pipeline, and deployment strategy that collectively enable real-time safety score predictions for urban environments.
+
+3.1 System Architecture Overview
+Aegis follows a modular, service-oriented architecture designed for scalability, maintainability, and multi-platform deployment. The system consists of five primary layers: Data Layer, Processing Layer, Model Layer, API Layer, and Presentation Layer. Each layer is designed to operate independently while maintaining clear interfaces for data exchange and service communication.
+The architecture supports both batch processing for model training and real-time inference for user queries. The system is designed to handle high-frequency requests from both web and mobile clients while maintaining low latency response times. The modular design ensures that individual components can be updated, scaled, or replaced without affecting the entire system.
+ 
+3.2 Component Architecture
+3.2.1 Data Processing Pipeline
+The data processing pipeline transforms raw Chicago crime data into structured, severity-weighted records suitable for machine learning. The pipeline consists of four sequential stages: Data Ingestion, Data Cleaning and Validation, Severity Mapping, and Feature Engineering.
+Data Ingestion handles the extraction of crime records from the Chicago Data Portal, filtering records to the 2015-2025 timeframe to ensure contemporary relevance. The ingestion process includes automated data quality checks and handles various data formats and encoding issues commonly found in municipal datasets.
+The Data Cleaning and Validation stage removes incomplete records, standardizes categorical variables, and validates temporal data. Records missing critical fields such as community area, date, or location description are filtered out to maintain data integrity. Date parsing handles various timestamp formats and extracts temporal features including year, month, day of week, and hour.
+Severity Mapping integrates the Bureau of Justice Statistics National Survey of Crime Severity (NSCS) weights with crime records. Each crime type and description combination is mapped to its corresponding severity weight, creating a standardized measure of crime impact. Where exact mappings are unavailable, conservative estimates based on primary crime types are applied.
+Feature Engineering creates the final feature set for machine learning, including one-hot encoding of categorical variables, temporal feature extraction, and interaction terms between geographic and temporal features. The output is a structured dataset ready for aggregation and model training.
+3.2.2 Machine Learning Pipeline
+The machine learning pipeline implements a regression-based approach to predict continuous weighted crime scores. The pipeline consists of Data Aggregation, Model Training, Model Evaluation, and Model Deployment phases.
+Data Aggregation groups individual crime records by community area, month, day of week, hour, and location description. Within each group, severity scores are summed to create the target variable weighted_crime_score. This aggregation approach transforms the problem from incident-level prediction to location-time risk prediction, which is more suitable for safety planning applications.
+Model Training employs XGBoost (Extreme Gradient Boosting) as the primary algorithm due to its effectiveness with structured tabular data and ability to capture non-linear relationships. The training process includes hyperparameter tuning using grid search with cross-validation, early stopping to prevent overfitting, and feature importance analysis to ensure model interpretability.
+Model Evaluation uses temporal splitting to simulate real-world deployment scenarios, where the model is trained on historical data and tested on more recent periods. Evaluation metrics include Mean Absolute Error (MAE) for interpretability and Root Mean Squared Error (RMSE) for model comparison. Additional validation includes residual analysis and prediction calibration.
+3.2.3 API Service Layer
+The API service layer provides RESTful endpoints for real-time safety score predictions and system integration. Built using FastAPI, the service offers high-performance, automatically documented APIs that support both synchronous and asynchronous request handling.
+The primary prediction endpoint accepts location and temporal parameters and returns weighted crime scores along with confidence intervals and risk categories. Additional endpoints support batch predictions, model metadata queries, and system health monitoring. The API implements comprehensive input validation, error handling, and logging for production reliability.
+Caching mechanisms using Redis reduce response times for frequently requested predictions and enable efficient handling of high-traffic scenarios. The caching strategy implements intelligent key generation based on prediction parameters and automatic cache invalidation when models are updated.
+3.3 Database Design
+3.3.1 Schema Architecture
+The database schema supports both transactional operations and analytical queries while maintaining referential integrity and query performance. The schema consists of five primary tables: raw_crimes, processed_crimes, severity_mappings, aggregated_scores, and prediction_cache.
+The raw_crimes table stores unprocessed data from the Chicago Data Portal, maintaining data lineage and enabling reprocessing when algorithms are updated. The processed_crimes table contains cleaned and validated records with parsed temporal features and location standardization.
+The severity_mappings table implements the BJS NSCS mapping between crime types and severity weights. This table is designed for easy updates when severity mappings are revised or extended to support additional crime classification systems.
+The aggregated_scores table stores pre-computed target variables grouped by the feature combinations used in machine learning. This table enables efficient training data generation and supports analytical queries for exploratory data analysis.
+3.3.2 Spatial Data Handling
+Geographic data handling leverages PostgreSQL with PostGIS extensions to support spatial queries, geometric operations, and geographic indexing. Community area boundaries are stored as polygon geometries, enabling spatial joins and geographic aggregations.
+Spatial indexing using R-tree structures ensures efficient geographic queries for real-time API responses. The spatial data model supports future extensions including point-based predictions, custom geographic boundaries, and integration with external geographic data sources.
+3.4 User Interface Design
+3.4.1 Web Application Architecture
+The web application utilizes Next.js framework to provide server-side rendering, optimized performance, and SEO capabilities. The architecture follows a component-based approach with reusable UI components for maps, charts, and data tables.
+The dashboard interface provides multiple visualization types including choropleth maps for geographic patterns, time series charts for temporal trends, and heatmaps for hour-day pattern analysis. Interactive filtering enables users to explore data across different time periods, crime types, and geographic areas.
+Map integration uses Leaflet.js for lightweight, responsive geographic visualization. The map component supports multiple overlay types including community area boundaries, crime hotspots, and predicted risk levels. Custom styling and color schemes provide intuitive risk communication through visual design.
+3.4.2 Mobile Application Architecture
+The Flutter mobile application provides cross-platform access to safety predictions with native performance on both Android and iOS platforms. The application architecture implements a clean architecture pattern with separate layers for presentation, business logic, and data access.
+The mobile interface prioritizes quick access to location-based safety scores with minimal user input. GPS integration provides automatic location detection, while manual location entry supports planning and route assessment. The interface includes risk visualization through color coding, trend indicators, and contextual safety recommendations.
+Offline capabilities ensure basic functionality when network connectivity is limited. The application caches recent predictions and maintains essential geographic data for core functionality during offline periods.
+3.5 Integration Design
+3.5.1 External Data Integration
+The system architecture supports integration with external data sources including real-time crime feeds, demographic data, and geographic information systems. API-based integration patterns enable automatic data updates while maintaining system reliability and data quality.
+Future extensions include integration with 311 service requests, traffic patterns, economic indicators, and social media sentiment data to enhance prediction accuracy and provide comprehensive urban intelligence.
+3.5.2 Third-Party Service Integration
+The system integrates with cloud services for deployment, monitoring, and scaling. Container orchestration using Docker enables consistent deployment across development, staging, and production environments. Cloud database services provide automated backup, scaling, and high availability capabilities.
+Monitoring integration includes application performance monitoring, error tracking, and user analytics to ensure system reliability and support continuous improvement. API monitoring tracks response times, error rates, and usage patterns to optimize system performance.
+3.6 Security and Privacy Design
+Security design implements multiple layers of protection including API authentication, input validation, data encryption, and access logging. Rate limiting prevents abuse and ensures fair resource allocation among users.
+Privacy protection includes data anonymization techniques, minimal data retention policies, and compliance with relevant data protection regulations. User data is processed only as necessary for safety prediction purposes, and no personally identifiable information is stored or transmitted.
+3.7 Scalability and Performance Design
+The architecture is designed to scale horizontally across multiple dimensions including API request volume, data processing throughput, and geographic coverage. Load balancing distributes requests across multiple API service instances, while database read replicas support query scaling.
+Caching strategies operate at multiple levels including API response caching, database query result caching, and CDN-based static content delivery. These strategies ensure consistent performance as user demand increases.
+Performance optimization includes database indexing strategies, query optimization, model inference optimization, and efficient data serialization formats. The system is designed to maintain sub-second response times for API requests under normal operating conditions.
+This detailed design provides the technical foundation for implementing Aegis as a robust, scalable, and user-friendly safety intelligence platform that serves diverse stakeholder needs while maintaining high standards of accuracy, reliability, and usability.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Implementation
+
+13. Implementation
+13.1 Overview
+The implementation of Aegis converts the detailed design into a practical, fully functional safety intelligence platform. The development was carried out in modular phases covering the backend pipeline, machine learning model, database, API services, and user interfaces. Both the Next.js web dashboard and the Flutter mobile application were designed to provide predictive safety insights in real time. The system exposes features such as Location, Search, Guide, and Family Tracking in a simple, accessible format, ensuring usability for diverse stakeholders including citizens, tourists, businesses, and agencies.
+
+13.2 Backend Implementation
+The backend is implemented in Python and powered by FastAPI for high-performance API services.
+•	Data Pipeline:
+o	Implemented using pandas and NumPy.
+o	Crime records (2015–2025 subset) were ingested from the Chicago Data Portal.
+o	Records were cleaned, standardized, and enriched with severity weights from the BJS National Survey of Crime Severity (NSCS).
+o	Temporal features (year, month, day of week, hour) were parsed and categorical variables (community area, location descriptor) encoded.
+•	Model Training:
+o	XGBoost Regressor was used to predict the continuous weighted crime score.
+o	Hyperparameters were tuned using cross-validation and early stopping.
+o	Feature importance analysis was performed using SHAP values to ensure interpretability.
+o	The final model was exported in ONNX format for optimized inference.
+•	API Services:
+o	REST endpoints built using FastAPI provide predictions for user queries.
+o	/predict endpoint → returns weighted crime score for location, time, and context.
+o	/guide endpoint → provides safest travel path between two points.
+o	/family endpoint → allows retrieval of family members’ statistics (based on shared accounts).
+o	Redis-based caching ensures low latency for frequently requested predictions.
+
+13.3 Database Implementation
+•	Platform: PostgreSQL with PostGIS extension.
+•	Schema Design:
+o	raw_crimes → unprocessed records.
+o	processed_crimes → cleaned records with features.
+o	severity_mappings → NSCS severity weights.
+o	aggregated_scores → target variables grouped by time and space.
+o	user_profiles → user/family accounts for tracking.
+o	prediction_cache → cached responses for API requests.
+•	Spatial Features: Community area boundaries stored as polygons; optimized with R-tree indexing for fast spatial queries.
+
+13.4 Web Application Implementation (Next.js)
+The web application was developed using Next.js 15, styled with Tailwind CSS and ShadCN UI, and integrated with Leaflet.js for mapping.
+•	Features:
+1.	Location: Displays user’s current location on a heatmap showing relative risk.
+2.	Search: Allows community-wise queries for crime scores, trends, and hotspots.
+3.	Guide: Provides the safest path between two points using predicted risk levels.
+4.	Family: Basic family dashboard showing location and safety statistics of registered family members.
+•	Integration: Web app communicates with the FastAPI backend via Axios API calls. Visualization components update dynamically based on API responses.
+
+13.5 Mobile Application Implementation (Flutter)
+The mobile application was built with Flutter 3, following a clean architecture pattern (presentation, business logic, data).
+•	Features:
+1.	Location: Uses GPS integration to display current position on the crime heatmap.
+2.	Search: Enables search by community area or specific location for predicted crime risk.
+3.	Guide: Suggests the safest travel route between two points with color-coded safety indicators.
+4.	Family: Provides a simple interface for users to track registered family members and view their safety statistics.
+•	UI Design:
+o	Risk levels are displayed using color coding (green = safe, yellow = moderate, red = high risk).
+o	Trend arrows show if safety is improving or deteriorating in a given area.
+o	Offline mode caches the last 5 predictions for use without internet connectivity.
+•	API Integration: Handled via the Dio package. Secure authentication is applied for family tracking features.
+
+13.6 Deployment and Integration
+•	Containerization: Backend services, database, and web frontend containerized using Docker.
+•	Cloud Hosting: Hosted on AWS/GCP, enabling automatic scaling for high request volumes.
+•	CI/CD: Implemented automated pipelines for code deployment and model updates.
+•	Monitoring: API and server health tracked using Prometheus + Grafana dashboards.
+•	Testing:
+o	Unit tests for backend and ML pipeline.
+o	Integration testing for API endpoints.
+o	User acceptance testing for web and mobile apps.
+
+13.7 Challenges and Solutions
+•	Data Quality Issues: Missing timestamps and community areas filtered or imputed during preprocessing.
+•	Model Generalization: Rare but severe crimes led to imbalance; addressed with weighted loss functions.
+•	API Latency: Reduced using Redis caching and ONNX-optimized models.
+•	Cross-Platform Consistency: Ensured web and mobile applications consumed the same backend API.
+•	Family Privacy: Applied account-based access control so that only linked users can view family statistics.
+
+13.8 Summary
+The implementation phase successfully realized Aegis as a multi-platform safety intelligence system. The modular approach allowed separate development of backend services, database schema, and frontend interfaces before seamless integration. Key user-facing features—Location, Search, Guide, and Family—were implemented consistently in both web and mobile applications, ensuring accessibility for end-users. With robust APIs, spatially optimized databases, and scalable deployment, Aegis demonstrates how predictive, severity-weighted urban safety intelligence can be delivered effectively to stakeholders.
+ 	 
+
+
+
+
+References
+
+[1] Bureau of Justice Statistics, National Survey of Crime Severity (NSCS), Washington, D.C., USA, 1982.
+[2] Chicago Data Portal, “Crimes - 2001 to Present,” City of Chicago, [Online]. Available: https://data.cityofchicago.org/
+[3] Ú. Castro, M. Rodrigues, and W. Brandão, “Predicting Crime by Exploiting Supervised Learning on Heterogeneous Data,” Proc. Int. Conf. Machine Learning and Applications (ICMLA), pp. 671–676, 2018.
+[4] T. Thilagavathi and A. Subashini, “Survey of Predictive Models for Safe Route Predicting Using Machine Learning Techniques,” Int. J. Innovative Research in Computer and Communication Engineering, vol. 7, no. 6, pp. 2145–2152, Jun. 2019.
+[5] PostgreSQL Global Development Group, “PostgreSQL Documentation,” [Online]. Available: https://www.postgresql.org/
+[6] FastAPI Framework, “FastAPI Documentation,” [Online]. Available: https://fastapi.tiangolo.com/
+[7] Next.js Framework, “Next.js Documentation,” Vercel Inc., [Online]. Available: https://nextjs.org/
+[8] Flutter SDK, “Flutter Documentation,” Google Developers, [Online]. Available: https://flutter.dev/
+

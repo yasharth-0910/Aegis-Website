@@ -1,0 +1,104 @@
+import {ReactRouter} from 'react-router-dom';
+import Link from 'next/link';
+
+// This is a simple signup page component for a Next.js application.
+
+// It includes form handling, state management, and navigation after successful signup.
+
+// The component uses bcryptjs for password hashing and the Next.js useRouter hook for navigation.
+// The form captures username, email, and password, and sends a POST request to the /api/signup endpoint.
+
+// Make sure to replace the placeholder database connection string in your .env.local file with your actual database credentials.
+
+export default function Signup(e:React.FormEvent) {
+    const router = useRouter();
+
+    const [username, setUsername] = useState('');
+    const[password,setPassword]=useState('');
+
+    const handleSubmit = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setError('');
+
+        try {
+            const response = await fetch('/api/signup', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ username, email, password }),
+            });
+
+            if(response.ok){
+                // Redirect to login page after successful signup
+                router.push('/login');
+            } else {
+                const data = await response.json();
+                setError(data.message || 'Signup failed');
+            }
+        } catch (err) {
+            setError('An error occurred. Please try again.');
+        }
+    };
+
+    return (
+        <div className="min-h-screen flex items-center justify-center bg-gray-100">
+            <div className="max-w-md w-full bg-white p-8 rounded shadow">
+                <h2 className="text-2xl font-bold mb-6 text-center">Sign Up</h2>
+                {error && <p className="text-red-500 mb-4">{error}</p>}
+                <form onSubmit={handleSubmit} className="space-y-4">
+                    <div>
+                        <label className="block text-sm font-medium mb-1" htmlFor="username">Username</label>
+                        <input
+                            type="text"
+                            id="username"
+                            value={username}
+                            onChange={(e) => setUsername(e.target.value)}
+                            required
+                            className="w-full px-3 py-2 border rounded"
+                        />
+                    </div>
+                    <div>
+                        <label className="block text-sm font-medium mb-1" htmlFor="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            required
+                            className="w-full px-3 py-2 border rounded"
+                        />
+                    </div>
+                    <div>
+                        <label className="block text-sm font-medium mb-1" htmlFor="password">Password</label>
+                        <input
+                            type="password"
+                            id="password"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                            required
+                            className="w-full px-3 py-2 border rounded"
+                        />
+                    </div>
+                    <div>
+                        <label className="block text-sm font-medium mb-1" htmlFor="confirm-password">Confirm Password</label>
+                        <input
+                            type="password"
+                            id="confirm-password"
+                            value={confirmPassword}
+                            onChange={(e) => setConfirmPassword(e.target.value)}
+                            required
+                            className="w-full px-3 py-2 border rounded"
+                        />
+                    </div>
+                    <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded">Sign Up</button>
+                </form>
+                <p className="mt-4 text-center">
+                    Already have an account? <Link href="/login" className="text-blue-500">Log in</Link>
+                </p>
+            </div>
+        </div>
+    );
+}
+
+

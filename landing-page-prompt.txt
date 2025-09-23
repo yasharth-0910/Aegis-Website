@@ -1,0 +1,184 @@
+# AEGIS Landing Page - Detailed Prompt
+
+## Project Overview
+**AEGIS** is a cutting-edge urban safety intelligence platform that transforms how citizens, businesses, and agencies approach urban safety through predictive, severity-weighted crime analytics. This is a Next.js web application with a coral theme (#ff5a5f) that should convey innovation, trust, and safety.
+
+## Target Audience
+- **Primary**: Urban residents, tourists, and visitors seeking safety information
+- **Secondary**: Businesses planning operations, city planners, and law enforcement agencies
+- **Tertiary**: Researchers and data analysts working with urban safety data
+
+## Key Value Propositions
+1. **Predictive Intelligence**: Unlike traditional crime maps that show past incidents, AEGIS predicts future safety scores
+2. **Severity-Weighted**: Uses Bureau of Justice Statistics (BJS) National Crime Severity Survey weights for accurate risk assessment
+3. **Real-Time Insights**: Provides continuous safety scores based on location, time, and context
+4. **Multi-Platform Access**: Available as web dashboard and mobile application
+5. **Data-Driven**: Built on 10+ years of Chicago crime data (2015-2025) with ML-powered predictions
+
+## Technical Foundation
+- **Data Source**: Chicago Crime Dataset (2015-2025) - 1M+ records
+- **ML Algorithm**: XGBoost Gradient Boosting for continuous score prediction
+- **Backend**: FastAPI with PostgreSQL + PostGIS for spatial queries
+- **Frontend**: Next.js with Leaflet.js for interactive mapping
+- **Mobile**: Flutter application for cross-platform mobile access
+- **Features**: Location tracking, route guidance, family safety monitoring, community analytics
+
+## Page Structure & Content Requirements
+
+### 1. Hero Section
+- **Headline**: "AEGIS - Predictive Urban Safety Intelligence"
+- **Subheadline**: "Stay Safe. Stay Informed. Make data-driven decisions with AI-powered safety predictions."
+- **Visual**: Interactive heatmap preview or gradient background with safety icons
+- **CTA Buttons**: 
+  - Primary: "Get Safety Score Now" (leads to signup/demo)
+  - Secondary: "View Live Demo" (leads to dashboard preview)
+- **Key Stats**: Display impressive numbers like "1M+ Crime Records Analyzed", "77 Community Areas Covered", "24/7 Real-Time Predictions"
+
+### 2. Problem Statement Section
+- **Title**: "Urban Safety Shouldn't Be a Guessing Game"
+- **Pain Points**:
+  - Citizens lack real-time safety intelligence when navigating cities
+  - Traditional crime maps only show past incidents, not future risks
+  - All crimes treated equally despite varying severity levels
+  - No predictive capability for proactive decision-making
+- **Visual**: Split comparison showing "Traditional Crime Maps" vs "AEGIS Predictions"
+
+### 3. Solution Overview
+- **Title**: "Introducing AEGIS: The Future of Urban Safety Intelligence"
+- **Core Innovation**: 
+  - Transforms raw crime data into severity-weighted, predictive safety scores
+  - Combines historical patterns with authoritative BJS severity mappings
+  - Provides continuous "unsafety" scores for any location/time combination
+- **Visual**: System architecture diagram or data flow visualization
+
+### 4. Key Features Section
+- **Feature 1: Location Intelligence**
+  - Real-time safety scores for any location
+  - Community area risk analysis
+  - Temporal pattern recognition (hourly, daily, seasonal)
+  
+- **Feature 2: Smart Route Guidance**
+  - Safest path recommendations between two points
+  - Time-aware routing (considers hour/day patterns)
+  - Alternative route suggestions with risk levels
+  
+- **Feature 3: Family Safety Tracking**
+  - Monitor family members' locations and safety
+  - Shared safety insights and alerts
+  - Privacy-focused design with user control
+  
+- **Feature 4: Predictive Analytics**
+  - Machine learning-powered forecasting
+  - Severity-weighted crime scoring using BJS standards
+  - Confidence intervals and risk categorization
+
+### 5. Technology Stack Section
+- **Title**: "Built on Cutting-Edge Technology"
+- **Backend**: FastAPI, PostgreSQL + PostGIS, Redis caching
+- **Frontend**: Next.js, Tailwind CSS, Leaflet.js mapping
+- **ML Pipeline**: XGBoost, SHAP explainability, ONNX optimization
+- **Mobile**: Flutter for cross-platform mobile apps
+- **Data**: Chicago Crime Dataset (2015-2025), BJS Severity Mapping
+- **Visual**: Tech stack icons or interactive technology showcase
+
+### 6. Use Cases Section
+- **For Citizens & Tourists**:
+  - Plan safe routes and timing for activities
+  - Make informed decisions about neighborhoods to visit
+  - Receive location-based safety recommendations
+  
+- **For Businesses**:
+  - Optimize operating hours based on safety patterns
+  - Plan delivery routes and scheduling
+  - Assess location safety for new establishments
+  
+- **For Agencies & Planners**:
+  - Data-driven resource allocation
+  - Evidence-based policy making
+  - Identify intervention priorities using severity weights
+
+### 7. Data & Methodology Section
+- **Title**: "Rigorous Science Behind Every Prediction"
+- **Data Foundation**: 
+  - Chicago Crime Dataset: 1M+ records (2015-2025)
+  - BJS National Survey of Crime Severity weights
+  - 77 Community areas with spatial boundaries
+  
+- **ML Methodology**:
+  - XGBoost regression for continuous score prediction
+  - Temporal feature engineering (month, day, hour)
+  - Spatial aggregation by community areas
+  - Cross-validation and temporal splitting for evaluation
+  
+- **Validation**: MAE/RMSE metrics, SHAP feature importance, prediction calibration
+
+### 8. Team & Academic Backing
+- **Institution**: Jaypee Institute of Information Technology, Noida
+- **Department**: Computer Science & Engineering
+- **Team Members**: 
+  - Yasharth Singh (9923103059)
+  - Nikunj Sethi (9923103069)
+  - Shrey Sircar (9923103072)
+- **Supervisor**: Prakhar Mishra
+- **Academic Program**: Minor Project-I (15B19CI591), B.Tech CSE, 3rd Year 5th Sem (2025-2026)
+
+### 9. Call-to-Action Section
+- **Primary CTA**: "Start Using AEGIS Today"
+- **Options**:
+  - "Try Web Dashboard" → Link to web application
+  - "Download Mobile App" → Links to app stores
+  - "View API Documentation" → For developers
+  - "Contact Our Team" → For partnerships/inquiries
+
+### 10. Footer
+- **Links**: About, Documentation, API, Privacy Policy, Terms of Service
+- **Contact**: Academic contact information
+- **Social**: GitHub repository, research papers, project updates
+
+## Design Guidelines
+
+### Visual Style
+- **Primary Color**: #ff5a5f (coral red) - conveys urgency and attention while remaining approachable
+- **Secondary Colors**: White, light grays, and darker shades of primary color
+- **Typography**: Modern, clean sans-serif fonts (Inter, Roboto, or similar)
+- **Icons**: Minimalist line icons for features and benefits
+- **Layout**: Clean, modern design with plenty of white space
+
+### Interactive Elements
+- **Live Map Preview**: Small interactive preview of the safety heatmap
+- **Data Visualization**: Charts showing temporal patterns or community rankings
+- **Before/After Comparisons**: Traditional crime maps vs AEGIS predictions
+- **Feature Demonstrations**: Short animations or GIFs showing core features
+
+### Trust Indicators
+- **Academic Credibility**: Highlight university affiliation and research foundation
+- **Data Sources**: Prominently mention official Chicago Data Portal and BJS
+- **Methodology Transparency**: Link to detailed methodology and validation results
+- **Open Source**: If applicable, mention GitHub repository for transparency
+
+### Mobile Responsiveness
+- Ensure all sections work perfectly on mobile devices
+- Progressive disclosure for technical details
+- Touch-friendly navigation and CTAs
+- Fast loading times with optimized images
+
+## Content Tone & Messaging
+- **Professional yet Accessible**: Convey technical sophistication without intimidating users
+- **Safety-Focused**: Emphasize how AEGIS helps people stay safe
+- **Data-Driven**: Highlight the scientific, evidence-based approach
+- **Innovation-Forward**: Position as next-generation safety technology
+- **User-Centric**: Focus on practical benefits for real users
+
+## SEO Considerations
+- **Primary Keywords**: Urban safety, crime prediction, safety intelligence, Chicago crime data
+- **Long-tail Keywords**: Predictive crime analytics, severity-weighted safety scores, urban safety planning
+- **Meta Description**: "AEGIS provides AI-powered, predictive urban safety intelligence using severity-weighted crime analytics. Get real-time safety scores and smart route guidance for Chicago."
+- **Structured Data**: Implement organization, product, and review schema markup
+
+## Success Metrics to Highlight
+- **Model Performance**: MAE scores, prediction accuracy
+- **Data Scale**: 1M+ crime records, 77 community areas, 10+ years of data
+- **Feature Coverage**: 24/7 predictions, multiple platforms, real-time updates
+- **Academic Rigor**: Research-backed methodology, peer validation
+
+This landing page should position AEGIS as a groundbreaking academic project that has real-world applications, combining cutting-edge technology with rigorous scientific methodology to solve a critical urban challenge.
