@@ -1,26 +1,317 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet styles */
+@import 'leaflet/dist/leaflet.css';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary-pink: #FF5A5F;
+  --primary-pink-dark: #e84850;
+  --primary-pink-light: #ff8b8f;
+  --accent: #FF7F81;
+  --background: #FDF5F5;
+  --text-primary: rgba(0, 0, 0, 0.87);
+  --text-secondary: #9e9e9e;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Custom utility classes */
+.bg-primary-pink {
+  background-color: var(--primary-pink);
+}
+
+.text-primary-pink {
+  color: var(--primary-pink);
+}
+
+.border-primary-pink {
+  border-color: var(--primary-pink);
+}
+
+/* Enhanced hover effects */
+.card-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Smooth animations */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Z-index layers */
+.z-navigation {
+  z-index: 100;
+}
+
+.z-modal {
+  z-index: 110;
+}
+
+.z-drawer {
+  z-index: 120;
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Glassmorphism for auth cards */
+.glass-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1.2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary-pink) 0%, var(--primary-pink-dark) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Leaflet container */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 1rem;
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Blob animation for background */
+@keyframes blob {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(20px, -50px) scale(1.1);
+  }
+  50% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  75% {
+    transform: translate(50px, 50px) scale(1.05);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fce7f3;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--primary-pink) 0%, var(--primary-pink-dark) 100%);
+  border-radius: 10px;
+}
+
+/* Button hover effects */
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.btn-primary:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(255, 90, 95, 0.1), 0 10px 10px -5px rgba(255, 90, 95, 0.04);
+}
+
+/* Tab indicator animation */
+.tab-indicator {
+  position: relative;
+}
+
+.tab-indicator::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--primary-pink);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.tab-indicator.active::after {
+  transform: scaleX(1);
+}
+
+/* Add to existing globals.css */
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Improved focus states */
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary-pink);
+  outline-offset: 2px;
+  border-radius: 0.5rem;
+}
+
+/* Better mobile tap targets */
+@media (max-width: 640px) {
+  button, a, input, select, textarea {
+    min-height: 44px;
+  }
+}
+
+/* Smooth transitions */
+* {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* ... existing styles ... */
+
+/* Fix z-index layering */
+.z-base { z-index: 1; }
+.z-dropdown { z-index: 10; }
+.z-sticky { z-index: 20; }
+.z-navigation { z-index: 30; }
+.z-popover { z-index: 40; }
+.z-modal { z-index: 50; }
+.z-notification { z-index: 60; }
+.z-menu-overlay { z-index: 60; }
+.z-menu { z-index: 70; }
+.z-tooltip { z-index: 80; }
+
+/* Ensure proper stacking context */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+/* Mobile menu specific */
+.mobile-menu-overlay {
+  z-index: 60;
+}
+
+.mobile-menu-drawer {
+  z-index: 70;
+}
+
+/* Better color consistency */
+.bg-primary-pink {
+  background-color: #ff5a5f !important;
+}
+
+.text-primary-pink {
+  color: #ff5a5f !important;
+}
+
+/* Fix icon sizes in navigation */
+nav svg {
+  flex-shrink: 0;
+}
+
+/* Ensure content doesn't go under fixed elements */
+main {
+  min-height: calc(100vh - 64px);
+}
+
+/* Better mobile spacing */
+@media (max-width: 768px) {
+  main {
+    padding-top: 1rem;
+  }
+}
+
+/* Fix gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #ff5a5f 0%, #e84850 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
